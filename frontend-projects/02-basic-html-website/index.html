@@ -1,11 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic HTML Website</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Portfolio of a Junior Software Engineer specializing in web applications, ERP systems, and UI/UX design." />
+  <meta name="keywords" content="Software Engineer, Web Developer, ERP, React, Node.js, PostgreSQL, UI/UX" />
+  <meta name="author" content="Mohamad Yusuf Ravi Aroito Maulana" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="Portfolio - Junior Software Engineer" />
+  <meta property="og:description" content="Passionate about web apps, ERP, and clean design. Skilled in React, Node.js, PostgreSQL." />
+  <meta property="og:image" content="../assets/aroito.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfolio - Junior Software Engineer" />
+  <meta name="twitter:description" content="Passionate about web apps, ERP, and clean design. Skilled in React, Node.js, PostgreSQL." />
+  <meta name="twitter:image" content="../assets/aroito.png" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <header>
+    <div class="container">
+      <figure class="logo">
+        <img width="64" src="../assets/aroito.png" alt="Aroito Logo" />
+        <figcaption class="sr-only">Portfolio Logo</figcaption>
+      </figure>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h1>Junior Software Engineer</h1>
+      <p>
+        Passionate about learning and building web applications. Skilled in 
+        <strong>JavaScript</strong>, <strong>React</strong>, <strong>Node.js</strong>, 
+        <strong>Express.js</strong>, and <strong>PostgreSQL</strong> with growing 
+        experience in designing clean and efficient solutions. Always eager to 
+        collaborate, improve, and take on new challenges.
+      </p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Interactive Digital Learning Content</strong> — Built using HTML5, CSS, and JavaScript, improving learner engagement by 30% through pre/post-test results.</li>
+        <li><strong>Task Management Web App</strong> — Developed with Laravel, Bootstrap, and MySQL featuring reminders and activity logs to streamline workflows.</li>
+        <li><strong>ERP Support Tools</strong> — Assisted in implementing ERP & CRM solutions to optimize business operations and data integration at CV. Agro Cita Mandiri.</li>
+        <li><strong>UI/UX Prototypes</strong> — Designed responsive prototypes in Figma for web applications, improving usability and reducing revision cycles by 20%.</li>
+        <li><strong>Mini Agile Projects</strong> — Completed collaborative software engineering sprints during RevoU training using GitHub, Trello, and stand-up meetings.</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="work-experience">
+      <h2>Work Experience</h2>
+      <article>
+        <h3>CV. Agro Cita Mandiri — Information & Business Support Specialist</h3>
+        <p>Managed business information systems and databases for commodity trading, optimized ERP/CRM usage, and introduced process automation that boosted team productivity by 15%.</p>
+      </article>
+      <article>
+        <h3>Telkom Witel Denpasar — IT-Enabled Relationship Officer (Internship)</h3>
+        <p>Maintained customer databases, analyzed operational data for weekly/monthly reporting, and proposed service improvements leading to 20% faster response times.</p>
+      </article>
+      <article>
+        <h3>PT. Umah Bali Mesari — Project Supervisor (Internship)</h3>
+        <p>Led and coordinated a 10+ member team, negotiated with suppliers to cut costs by 10%, and delivered a 750 m² renovation project 15% ahead of schedule.</p>
+      </article>
+    </section>
+
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <p><strong>Bachelor’s Degree in Informatics Engineering</strong> — Ganesha University of Education</p>
+      <ul>
+        <li>Developed interactive digital learning media with HTML5, CSS, and JavaScript.</li>
+        <li>Built task management applications using Laravel, Bootstrap, and MySQL.</li>
+        <li>Collaborated in cross-functional teams as Frontend Developer, UI Designer, and Documentation Lead using GitHub, Figma, and Trello.</li>
+        <li>Coursework: Software Engineering, Database Management Systems, Web Development, UI/UX Design, Project-Based Learning Methods.</li>
+      </ul>
+    </section>
+
+    <aside id="reviews" class="reviews">
+      <h2>Feedback from Peers & Mentors</h2>
+      <blockquote>
+        <p>Ravi consistently demonstrates strong analytical thinking and adaptability, excelling in both technical and business system support tasks.</p>
+        <footer>— Supervisor, CV. Agro Cita Mandiri</footer>
+      </blockquote>
+      <blockquote>
+        <p>Delivered outstanding contributions during his internship, especially in optimizing data processes and providing actionable insights for decision-making.</p>
+        <footer>— Mentor, Telkom Witel Denpasar</footer>
+      </blockquote>
+      <blockquote>
+        <p>Exhibited excellent leadership in project supervision, managing multidisciplinary teams and completing deliverables ahead of schedule with high quality.</p>
+        <footer>— Project Lead, PT. Umah Bali Mesari</footer>
+      </blockquote>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 All rights reserved</p>
+    </div>
+  </footer>
 </body>
 </html>
